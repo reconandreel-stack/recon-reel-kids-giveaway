@@ -9,8 +9,7 @@
 
 const CONFIG = {
   limit: 100,
-  webhookUrl: "https://script.google.com/macros/s/AKfycbwDVK8pRhF0-TnkaiS7Kdsw1nJ-xAcjBCMn6k_k6ehQm6MLjxRVsxc00qCXu3I767UL/exec", // e.g. https://script.google.com/macros/s/.../exec
-};
+  webhookUrl: "https://script.google.com/macros/s/AKfycbwDVK8pRhF0-TnkaiS7Kdsw1nJ-xAcjBCMn6k_k6ehQm6MLjxRVsxc00qCXu3I767UL/exec", // e.g. https://script.google.com/macros/s/XXXX/exec?action=count
 
 const $ = (id) => document.getElementById(id);
 
