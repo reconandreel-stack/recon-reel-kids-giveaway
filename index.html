@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Kids Fishing Giveaway RSVP | Recon & Reel</title>
+  <meta name="description" content="Kids Fishing Gear Giveaway RSVP — Recon & Reel" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a class="brandMark" href="#" aria-label="Recon & Reel home">
+        <img class="logo" src="assets/recon-reel-logo.png" alt="Recon & Reel logo"
+             onerror="this.src='assets/logo-placeholder.svg'; this.alt='Upload Recon & Reel logo';" />
+      </a>
+      <div class="brandText">
+        <div class="brandName">Recon &amp; Reel</div>
+        <div class="brandTag">Recon Ready, Reel Steady</div>
+      </div>
+    </div>
+
+    <a class="ig" href="#" aria-label="Recon & Reel Instagram">@reconandreel</a>
+  </header>
+
+  <main class="wrap">
+    <section class="panel hero">
+      <div class="heroCopy">
+        <div class="kicker">Mission Brief</div>
+        <h1>Kids Fishing Gear Giveaway</h1>
+        <p class="sub">
+          To introduce kids to fishing while building confidence, patience, and a positive connection to the outdoors.
+        </p>
+
+        
+        <div class="info">
+          <div class="chip">📍 <strong>Mission Point Park</strong></div>
+          <div class="chip">🏠 <strong>2600 Bayside Ln, San Diego</strong></div>
+          <div class="chip">🗓 <strong>February 7</strong></div>
+          <div class="chip">⏰ <strong>10:00 AM – 1:00 PM</strong></div>
+          <div class="chip">🤝 <strong>@zayfishing</strong> + <strong>@bpfishing</strong></div>
+        </div>
+
+
+        <div id="status" class="status" role="status" aria-live="polite">
+          <strong>RSVP:</strong> Sign up below to receive event updates and confirm your interest.
+        </div>
+
+        <div class="note">
+          <span class="dot"></span>
+          <span>RSVP may close at any time.</span>
+        </div>
+      </div>
+
+      <div class="heroForm panelInset" aria-label="RSVP form">
+        <h2>RSVP</h2>
+
+        <form id="rsvpForm" novalidate>
+          <div class="grid2">
+            <div>
+              <label for="parentName">Parent/Guardian Name</label>
+              <input id="parentName" name="parentName" autocomplete="name" required placeholder="Full name" />
+            </div>
+            <div>
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" inputmode="tel" autocomplete="tel" required placeholder="(555) 555-5555" />
+            </div>
+          </div>
+
+          <div class="grid2">
+            <div>
+              <label for="childName">Child Name</label>
+              <input id="childName" name="childName" required placeholder="Child’s first name" />
+            </div>
+            <div>
+              <label for="age">Child Age</label>
+              <select id="age" name="age" required>
+                <option value="" disabled selected>Select age</option>
+                <option value="3-5">3–5</option>
+                <option value="6-8">6–8</option>
+                <option value="9-11">9–11</option>
+                <option value="12-14">12–14</option>
+                <option value="15-17">15–17</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="qty">How many kids are you RSVPing for?</label>
+            <select id="qty" name="qty" required>
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="notes">Notes (optional)</label>
+            <textarea id="notes" name="notes" placeholder="Allergies, needs, questions?"></textarea>
+          </div>
+
+          <button class="btn" id="submitBtn" type="submit">Submit RSVP</button>
+
+          <p class="fineprint">
+            By submitting, you agree to be contacted with event updates.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerInner">
+        <img class="footerLogo" src="assets/recon-reel-mark.png" alt="Recon & Reel mark"
+             onerror="this.src='assets/logo-placeholder.svg'; this.alt='Upload Recon & Reel mark';" />
+        <div class="footerText">
+          <div class="footerStrong">Recon &amp; Reel</div>
+          <div class="footerMuted">Community • Mentorship • Time Outdoors</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
