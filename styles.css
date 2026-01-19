@@ -129,9 +129,8 @@ a{ color: var(--text); text-decoration: none; }
 
 .panel > *{ position: relative; }
 
-.hero{
-   margin-top: -50px; 
-  padding: 10px;
+.hero{ 
+  padding: 20px;
   display:grid;
   grid-template-columns: 1.1fr .9fr;
   gap: 18px;
