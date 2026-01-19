@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6b8e23" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#c2b280" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="36" fill="url(#g)" stroke="rgba(255,255,255,.18)" stroke-width="6"/>
+  <g fill="rgba(231,236,233,.9)" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="128" y="118" font-size="22" font-weight="700">Upload Logo</text>
+    <text x="128" y="148" font-size="14" opacity=".9">assets/recon-reel-logo.png</text>
+  </g>
+</svg>
