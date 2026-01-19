@@ -183,14 +183,18 @@ h1{
 .chip strong{ color: var(--text); }
 
 .status{
-  margin-top: 16px;
-  border:1px solid var(--border);
-  border-radius: var(--radius2);
-  padding: 12px;
-  color: var(--muted);
-  background: rgba(0,0,0,.18);
-  line-height: 1.4;
-  font-size: 13px;
+ position: sticky;
+  top: 120px;              /* distance from top */
+  align-self: flex-start;
+  max-width: 320px;
+
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  margin-right: 20px;
+
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
 }
 
 .status strong{ color: var(--text); }
